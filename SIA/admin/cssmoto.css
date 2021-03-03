@@ -1,0 +1,107 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+.main{
+
+	width: 100%;
+	height: 100%;
+	background-color: #42455a;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: center;
+	background-image: url("pic/gb1.jpg");
+
+
+}
+
+.login{
+
+	width: 400px;
+	height: 420px;
+	border-style: groove;
+	border-color: white;
+	border-radius: 12px;
+	float: right;
+	top: 8%;
+	left: 35%;
+	position: absolute;
+	padding: 50px 30px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.btn{
+
+	border: 1px solid #f1f1f1;
+	width: 100%;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 8px 0;
+	transition: 0.8s;
+	position: relative;
+	border-radius: 20px;
+	overflow: hidden;
+	outline: none;
+
+}
+
+.btnlog{
+
+	color: black;
+
+}
+
+
+.btnlog:hover{
+
+	color: black;
+
+}
+
+.btn::before{
+
+	content: "";
+  	position: absolute;
+  	left: 0;
+  	width: 100%;
+  	height: 0%;
+ 	background: #87ceeb;
+ 	z-index: -1;
+  	transition: 0.8s;
+
+}
+
+.btnlog::before{
+
+	bottom: 0;
+	border-radius: 80% 80% 0 0;
+
+}
+
+.btnlog::before{
+
+	height: 180%;
+
+}
+
+.btnlog:hover::before{
+
+	height: 0%;
+	
+}

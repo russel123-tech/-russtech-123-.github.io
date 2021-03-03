@@ -1,0 +1,214 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+/*main start */
+
+body{
+
+	width: 100%;
+	height: 100%;
+	background-color: #42455a;
+	overflow: auto;
+	background-image: url("pic/gb1.jpg");
+	background-size: 100% 100%;
+	position: center;
+	background-repeat: no-repeat;
+}
+
+.login{
+
+	width: 300px;
+	height: 270px;
+	border-style: groove;
+	border-color: white;
+	border-radius: 12px;
+	float: right;
+	top: 30%;
+	left: 65%;
+	position: absolute;
+	padding: 70px 30px;
+
+
+}
+
+
+.login input[type = "text"], input[ type = "password"]{
+
+	border-style: solid;
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;
+	height: 40px;
+	padding-left: 45px;
+	margin: 15px 0;
+	display: inline-block;
+	
+
+}
+
+.login input[type = "text"]{
+
+	background: url("pic/user.png") ;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-color: white;
+	margin: -50px -25px;
+	padding: 20px 55px;
+	
+
+}
+
+.btn{
+
+	border: 1px solid #f1f1f1;
+	width: 115%;
+	background: none;
+	padding: 10px 10px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px -30px;
+	transition: 0.8s;
+	position: relative;
+	border-radius: 20px;
+	overflow: hidden;
+
+}
+
+.btnlog{
+
+	color: black;
+	
+
+}
+
+.btnlog:hover{
+
+	color: black;
+
+}
+
+.btn::before{
+
+	content: "";
+  	position: absolute;
+  	left: 0;
+  	width: 100%;
+  	height: 0%;
+ 	background: #87ceeb;
+ 	z-index: -1;
+  	transition: 0.8s;
+
+}
+
+.btnlog::before{
+
+	bottom: 0;
+	border-radius: 80% 80% 0 0;
+
+}
+
+.btnlog::before{
+
+	height: 180%;
+
+}
+
+.btnlog:hover::before{
+
+	height: 0%;
+	
+}
+
+
+p{
+
+	margin-left: 40px;
+
+}
+
+.bar ul{
+
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 70%;
+	float: right;
+	position: absolute;
+
+}
+
+.bar ul li{
+
+
+	list-style: none;
+	margin: 0 20px;
+	cursor: pointer;
+	
+}
+.U {
+
+	color: black;
+
+}
+
+.U:active{
+
+	color: blue;
+
+}
+
+/*main end */
+
+p{
+	padding: 2px 2px;
+	margin-left: 15px;
+  	font-size: 20px;
+  	color: #000000;
+  	display: block;
+	transition: 0.3s;
+	padding-top: 20px;
+
+}
+
+
+/*homepage end */
+
+
+
+/*forgot password start*/
+.line {
+	border-bottom: 2px solid #ccc;
+	display: block;
+	margin: -60px -20px;
+}
+
+.p1{
+	font-weight: bold;
+	margin: -50px 50px;
+	width: 80%;
+}
+
+.p2{
+	margin: 70px -25px;
+}
+
+.p3{
+	font-weight: bold;
+	margin: 50px 0px;
+}
+
+.login{
+
+	margin: -100px -450px;
+	padding: 50px 80px;
+	
+}
+
+/*forgot password end*/
+

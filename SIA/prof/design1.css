@@ -1,0 +1,598 @@
+h1{
+	
+	font-family:impact;
+	margin-left:5;
+	padding-top:40;
+
+
+}
+
+body{
+
+	background-color:#f0f8ff;
+
+}
+
+.container{
+
+	background-color:white;
+	margin-left:300;
+	border-radius:10px;
+
+}
+.underline{
+	
+	border-bottom:3px solid lightgray;
+	width:750;
+
+}
+
+/* Sreview Start */
+
+.Sreview{
+
+	background-color: lightgray;
+
+}
+
+.SreviewC{
+
+	margin-left: 25%;
+	margin-top: 10%;
+	background-color: white;
+	width: 50%;
+	height: 80%;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+
+}
+
+.Sdone{
+
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	color:white;
+	background-color: #1DA1F2;
+	border-style: initial;
+	outline-style: none;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+	margin-top: 73%;
+	margin-left: 83%;
+
+}
+
+.Sdone:active{
+
+	background-color: #AAB8C2;
+
+}
+
+/* Sreview End */
+
+/* Sexam Start */
+
+.Ssubmit{
+
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	color:white;
+	background-color: #1DA1F2;
+	border-style: initial;
+	outline-style: none;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+	margin-top: 73%;
+	margin-left: 83%;
+
+}
+
+.Ssubmit:active{
+
+	background-color: #AAB8C2;
+
+}
+
+.Sexam{
+
+	background-color: lightgray;
+
+}
+
+.SHead{
+
+	width: 50%;
+	height: 18%;
+	margin-left: 25%;
+	background-color: khaki;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+
+}
+
+.SexamC{
+
+	margin-left: 25%;
+	margin-top: 1%;
+	background-color: white;
+	width: 50%;
+	height: 80%;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+
+}
+
+label.CT{
+
+	padding-left: 3%;
+	padding-top: 2%;
+	position: absolute;
+
+}
+
+label.SA{
+	
+	padding-left: 3%;
+	padding-top: 5%;
+	position: absolute;
+
+}
+
+label.TL{
+	
+	padding-left: 30%;
+	padding-top: 2%;
+	position: absolute;
+
+}
+
+label.TT{
+	
+	padding-left: 30%;
+	padding-top: 5%;
+	position: absolute;
+
+}
+
+/* Sexam End */
+
+/* Sinstruction Start */
+
+.Sstart{
+
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	color:white;
+	background-color: #1DA1F2;
+	border-style: initial;
+	outline-style: none;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+	margin-top: 43%;
+	margin-left: 83%;
+
+}
+
+.Sstart:active{
+
+	background-color: #AAB8C2;
+
+}
+
+.Sinstructions{
+
+	background-color: lightgray;
+
+}
+
+.SinstructionsC{
+
+	margin-left: 25%;
+	margin-top: 2%;
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+
+}
+
+label.ME{
+	
+	padding-left: 2%;
+	padding-top: 2%;
+	font-size: 25px;
+	position: absolute;
+
+}
+
+label.I{
+	
+	padding-left: 2%;
+	padding-top: 7%;
+	font-size: 25px;
+	position: absolute;
+
+}
+
+/* Sinstruction End */
+
+/* ManageA Start */
+
+.MA{
+
+	background-color: lightgray;
+
+}
+
+.MAc{
+
+	margin-left: 1%;
+	margin-top: 2%;
+	border-radius: 10px;
+	background-color: white;
+	width: 97%;
+	height: 50%;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+	position: fixed;
+
+}
+
+label.MAl{
+	
+	padding-left: 2%;
+	padding-top: 2%;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	
+}
+
+.MSearch{
+
+	width: 80px;
+	height: 25px;
+	border-radius: 8px;
+	color:white;
+	background-color: #275f81;
+	border-style: initial;
+	outline-style: none;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+	position: absolute;
+	margin-left: .7%;
+	margin-top: 5.5%;
+
+}
+
+.MSearch:active{
+
+	background-color: #AAB8C2;
+
+}
+
+.MNA{
+
+	height: 2px;
+	width: 91.5%;
+	background-color: #AAB8C2;
+	position: relative;
+	margin-top: 80px;
+	margin-left: 39px;
+	position: fixed;
+
+}
+
+input.iS[type = "text"]{
+
+	width: 88%;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 21px;
+	padding-left: 10px;
+	padding-right: 27px;
+	background-image: url("tpic/srch.png");
+	background-size: 30px 30px;
+	background-position: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.tMA {
+
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 95%;
+	margin-left: 20px;
+	overflow: hidden;
+
+}
+
+.tMA td, .tMA th {
+
+	border: 2px solid #ddd;
+	text-align: left;
+
+}
+
+.tMA tr:hover {
+
+  background-color: #ddd;
+
+}
+
+.tMA th {
+
+	
+	text-align: left;
+	color: grey;
+
+}
+
+.plus{
+
+	margin-top: 2px;
+	margin-left: 2px;
+	width: 190px;
+	height: 26px;
+	color: white;
+	outline: none;
+	border: none;
+	background-color: #6db9e7;
+
+}
+
+.plus:hover{
+
+	background-color:  #94bad1;
+
+}
+
+.plus:active{
+
+	background-color: #91acbd ;
+
+}
+
+.bgko{
+
+	width: 95%;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: #275f81;
+	float: left;
+
+}
+
+/* modal start */
+
+/* The Modal (background) */
+
+.mMA {
+
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 5px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+.lm , p{
+
+	height: 30px;
+	font-size: 20px;
+
+}
+
+.imp{
+
+	color: red;
+
+}
+
+span{
+
+	margin-top: -5px;
+
+}
+
+select.course{
+
+	height:30px;
+	width: 160px;
+	color: grey;
+	margin-left: 170px;
+	font-size: 15px;
+	border-width: 2px;
+	border-radius: 5px;
+	float: left;
+
+}
+
+select.section{
+
+	height:30px;
+	width: 160px;
+	color: grey;
+	font-size: 15px;
+	border-width: 2px;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 170px;
+	position: fixed;
+
+}
+
+select.course{
+
+	height:30px;
+	width: 160px;
+	color: grey;
+	margin-top: 0px;
+	margin-left: 360px;
+	font-size: 15px;
+	border-width: 2px;
+	border-radius: 5px;
+	position: fixed;
+
+}
+p.dm{
+ margin-top: 80px;	
+}
+  
+  /* Modal Content */
+
+.mc {
+
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 50%;
+	height: 97%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+
+}
+  
+  /* Add Animation */
+@-webkit-keyframes animatetop {
+
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+
+}
+  
+@keyframes animatetop {
+
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+
+}
+  
+  /* The Close Button */
+
+.close {
+
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+  
+.close:hover,.close:focus {
+
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+  
+.mh {
+
+	padding: 10px 10px;
+	background-color:  #275f81;
+	color: white;
+
+}
+  
+.mb {
+
+	  padding: 2px 16px;
+	
+}
+
+textarea.title{
+
+	float: right;
+	width: 74%;
+	height: 8%;
+	margin-top: -60px;
+	resize: none;
+	
+}
+
+textarea.title1{
+
+	float: right;
+	width: 74%;
+	height: 8%;
+	margin-top: -60px;
+	resize: none;
+	
+}
+
+textarea.Details{
+
+	float: right;
+	width: 74%;
+	height: 20%;
+	margin-top: -62px;
+	resize: none;
+	
+}
+
+p.ATC{
+
+	margin-top: 0px;
+	position: absolute;
+
+}
+
+button.clear, button.create{
+
+	width: 80px;
+	height: 30px;
+	border-radius: 8px;
+	color:grey;
+	background-color: rgb(178, 211, 226);
+	border-style: initial;
+	outline-style: none;
+	box-shadow: 3px 5px 8px rgba(92, 81, 81, 0.774);
+
+}
+
+button.clear:hover, button.create:hover{
+
+	background-color: #d7dbdf;
+
+}
+
+button.clear:active, button.create:active{
+
+	background-color: #bbccd8;
+
+}
+
+
+
+button.clear{
+
+	position: fixed;
+	margin-top: 50px;
+	margin-left: 470px;
+
+}
+
+button.create{
+
+	position: fixed;
+	margin-top: 50px;
+	margin-left: 565px;
+
+}
+
+
+/* modal end */
+
+
+/* ManageA End */
